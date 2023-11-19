@@ -47,6 +47,14 @@
     <!-- Wifi driver supports WPA3 Opportunistic Wireless Encryption (WPA3-OWE) for softap -->
     <bool name="config_vendor_wifi_softap_owe_supported">true</bool>
 
+    <!-- Wifi driver supports Opportunistic Wireless Encryption (OWE) Transition
+         aka Enhanced Open for Soft-AP -->
+    <bool translatable="false" name="config_wifiSoftapOweTransitionSupported">true</bool>
+
+    <!-- Wifi driver supports Opportunistic Wireless Encryption (OWE)
+         aka Enhanced Open for Soft-AP -->
+    <bool translatable="false" name="config_wifiSoftapOweSupported">true</bool>
+
     <!-- Wifi driver Automatic channel selection (ACS) for softap to include DFS channels -->
     <bool translatable="false" name="config_wifiSoftapAcsIncludeDfs">true</bool>
 
@@ -69,4 +77,5 @@
 
     <!-- boolean indicating whether or not to auto-upgrade band setting configuration to dual bands during cloud configuration restore when device supported -->
     <bool translatable="false" name ="config_wifiSoftapAutoUpgradeToBridgedConfigWhenSupported">false</bool>
+
 </resources>

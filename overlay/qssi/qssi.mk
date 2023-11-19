@@ -12,7 +12,8 @@ PRODUCT_PACKAGES += \
     SystemUIResCommon \
     TelecommResCommon \
     TelephonyResCommon \
-    WifiResCommon
+    WifiResCommon \
+    WifiResCommonMainline
 
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
