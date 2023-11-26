@@ -8,6 +8,9 @@
     <!-- Boolean indicating whether the wifi chipset has 5GHz frequency band support -->
     <bool translatable="false" name="config_wifi5ghzSupport">true</bool>
 
+    <!-- Wifi driver supports 6GHz band for softap -->
+    <bool translatable="false" name="config_wifiSoftap6ghzSupported">true</bool>
+
     <!-- Boolean indicating whether the wifi chipset has background scan support -->
     <bool translatable="false" name="config_wifi_background_scan_support">true</bool>
 
@@ -27,7 +30,14 @@
     <bool translatable="false" name="config_wifi_p2p_mac_randomization_supported">true</bool>
 
     <!-- Boolean to provide support to keep wifi5 symbol for 8SS supported device and 11ax AP -->
-    <bool translateble="false" name="config_wifi_report_he_ready">true</bool>
+    <bool translatable="false" name="config_wifi_report_he_ready">true</bool>
+
+    <!-- Channel list for softap 2G band. Empty means all channels -->
+    <string translatable="false" name="config_wifiSoftap2gChannelList"></string>
+    <!-- Channel list for softap 5G band. Empty means all channels -->
+    <string translatable="false" name="config_wifiSoftap5gChannelList"></string>
+    <!-- Channel list for softap 6G band. Empty means all channels -->
+    <string translatable="false" name="config_wifiSoftap6gChannelList"></string>
 
     <!-- Boolean to provide support to keep wifi5 symbol for 8SS supported device and 11ax AP -->
     <bool translatable="false" name="config_vendorWifi11axReadySupport">true</bool>
@@ -56,4 +66,7 @@
 
     <!-- Boolean indicating whether 802.11r Fast BSS Transition is enabled on this platform -->
     <bool name="config_wifi_fast_bss_transition_enabled">true</bool>
+
+    <!-- boolean indicating whether or not to auto-upgrade band setting configuration to dual bands during cloud configuration restore when device supported -->
+    <bool translatable="false" name ="config_wifiSoftapAutoUpgradeToBridgedConfigWhenSupported">false</bool>
 </resources>

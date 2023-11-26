@@ -6,6 +6,8 @@
 
 # Overlays
 PRODUCT_PACKAGES += \
+    CarrierConfigResCommon \
+    CellBroadcastReceiverResCommon \
     FrameworksResCommon \
     SystemUIResCommon \
     TelecommResCommon \
