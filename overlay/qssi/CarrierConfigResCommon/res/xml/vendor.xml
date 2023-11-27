@@ -124,7 +124,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <!-- PA: Hide IMS APN by default -->
-        <boolean name="hide_ims_apn_bool" value="true" />
+        <boolean name="hide_ims_apn_bool" value="false" />
     </carrier_config>
 
     <carrier_config mcc="001" mnc="01">
